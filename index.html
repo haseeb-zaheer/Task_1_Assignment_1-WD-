@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head lang = "en">
+        <meta charset = "UTF-8">
+        <title> Portfolio Page </title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class = "smallBox">
+            <div class = "textBox" id = "displayText" onclick="animateContent()">
+                <img id = "displayText" src = "Images/pfp.jpg" onclick="animateContent()">
+                <p>Who am I?</p>
+            </div>
+            <!-- <p>
+            <img id = "displayText" src = "Images/pfp.jpg" onclick="animateContent()">
+            <br>yes -->
+        </p>
+        </div>
+
+        <div class = "roboto-slab-container hidden">
+            <div class ="divs">            
+                <div class = "column">
+                    <img id = "pfp" src="Images/pfp.jpg">
+                </div>        
+                <div class = "column2">
+                    <h1 class = "roboto-slab-font">Haseeb Zaheer</h1>
+                    <h2 >Student || C++ Developer Intern</h2>
+                    <div class="contact">
+                        <span><img id="email" src="Images/em.png" alt="Email"> L215171@lhr.nu.edu.pk</span>
+                        <span><img id="phone" src="Images/p.png" alt="Phone"> +92-3214291767</span>
+                        <span><img id = "linkedIn" src = "Images/LI.png" alt = "LinkedIn"> <a target="_blank" href="https://www.linkedin.com/in/muhammad-haseeb-zaheer/">LinkedIn</a> </span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class = "div2">
+                <h2 id = "profile-head"> Profile </h2> <br>
+                <p> I am a student in my third year of university at FAST NUCES Lahore and currently working
+                    as a part-time C++ Developer intern at CodeAlpha. Looking forward to improving my skills
+                    in the world of computer Sciences and to learn more as a software developer in this field.
+                </p>
+            </div>
+
+            <div class = "divs">
+                <div class = "div3">
+                    <h2> Education </h2>
+                    <p> 
+                        FAST NUCES Lahore, 2021-2025 <br>
+                        Bachelors of Computer Sciences
+                    </p>
+                    <p>
+                        LACAS ALJT <br>
+                        A-Levels (1A*, 2As)
+                    </p>
+
+                    <h2> Experience </h2>
+                    <p>
+                        CodeAlpha <br>
+                        Feb 2024 - March 2024 <br>
+                        <strong> C++ Developer Intern </strong>
+                    </p>
+                    <ul>
+                        <li>Developed projects in C++ for Clients<br></li>
+                        <li>Organised team meetings and managed team as team lead</li>
+                        <li> Completed a total of 3 high level projects gracefully as a remote intern </li>
+                    </ul>
+                    
+                </div>
+                <div class = "div4">
+                    <h2> Skills </h2>
+                    <p>
+                        C++ <br>
+                        C <br>
+                        SQL <br>
+                        HTML <br>
+                        CSS <br>
+                        JavaScript <br>
+                    </p>
+                    <h2> Certificates </h2>
+                    <p> <strong>CodeAlpha Intern</strong><br>CodeAlpha</p>
+                    <p> <strong> 3 time holder of Deans List of Honors </strong><br>FAST NUCES</p>
+
+                    <h2> Languages </h2>
+                    <p> English (Expert) <br>Urdu (Intermediate)</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class = "roboto-slab-container2 hidden">
+            <div class = "div2">
+                <h2>Projects</h2>
+            </div>
+            <div class="divs">
+                <div class = "project1">
+                    <h2>Operating System Simulator</h2>
+                    <p>
+                        In this project, I was tasked to develop an operating system simulator.
+                        The simulator was developed using concepts of operating systems which we had studied during the course. <br>
+                        <a href = "https://github.com/haseeb-zaheer/Operating-System-Simulator" target = "_blank">Github Repository</a>
+                    </p>
+                    <h2>Library Management System</h2>
+                    <p>
+                        C++ Project for Programming Fundamentals Course of 1st Semester at FAST University. <br>
+                        <a href = "https://github.com/haseeb-zaheer/Library-Management-System" target = "_blank">Github Repository</a>
+                    </p>
+                </div>
+                <div class = "project2">
+                    <h2> Number Guessing Game </h2>
+                    <p>
+                        A game made in C++ which implements GUI using SFML.<br>
+                        <a href = "https://github.com/haseeb-zaheer/CodeAlpha_Task_1" target = "_blank">Github Repository</a>
+                    </p>
+                    <h2>Command Line File Manager</h2>
+                    <p>
+                        An implementation of a command line file manager in C++ using the 'filesystem' library.<br>
+                        <a href = "https://github.com/haseeb-zaheer/CodeAlpha_Task_2" target = "_blank">Github Repository</a>
+                    </p>
+                    <h2> Sudoku Solver </h2>
+                    <p>  This project involved mastering the art of solving Sudoku puzzles, 
+                        delving into the algorithms behind it, and implementing a graphical user interface (GUI) using SFML. <br>
+                        <a href = "https://github.com/haseeb-zaheer/CodeAlpha_Task_3" target = "_blank">Github Repository</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
